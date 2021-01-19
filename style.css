@@ -1,0 +1,640 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e4af9c !important;
+  padding: 0;
+  height: auto;
+  width: 100%;
+}
+
+.Logo{
+  width: 100px;
+  position: absolute;
+  top: 26px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.Logo img{
+  width: 100%;
+}
+
+.menu-my-new-header-menu-container ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: #0d0d0d;
+  margin: 0;
+}
+
+.menu-my-new-header-menu-container ul li{
+ margin: 0 42px 0 42px;
+ font-size: 20px;
+ 
+}
+
+.menu-my-new-footer-menu-container ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: #0d0d0d;
+  margin: 0;
+}
+
+.menu-my-new-footer-menu-container ul li{
+  margin: 0 42px 0 42px;
+  font-size: 20px;
+  width: 60px;
+}
+
+.Logo img {
+  margin-top: -60px;
+}
+
+ul li a{
+  color: #0d0d0d;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover{
+  color: #f2ceae;
+}
+
+.menu-my-new-header-menu-container {
+background-color: #736969;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+padding-right: 5%;
+}
+
+.menu-my-new-footer-menu-container ul li{
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.menu-my-new-footer-menu-container{
+  background-color: #736969;
+  height: 150px;
+  justify-content: center;
+  display: flex;
+}
+
+.button-box{
+  margin-bottom: 50px;
+}
+
+.button-box{
+  display: flex;
+  flex-direction: row;
+}
+
+.button1{
+  margin-left: 12.5%;
+}
+
+.button2{
+  margin-left: 2%;
+}
+
+.Start-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 75px;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  font-size: 25px;
+  border-radius: 25px;
+}
+
+.Start-button2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 75px;
+  background-color: red;
+  color: #ffffff;
+  font-size: 25px;
+  border-radius: 25px;
+}
+
+.Start-button p{
+  margin: 0;
+}
+
+.Start-button2 p{
+  margin: 0;
+}
+
+.Start-button:hover{
+  background-color:#1d1d1d;
+  color: wheat;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 50px 0 0 0;
+  height: auto;
+}
+
+.img-startpage{
+  width: 60%;
+  height: 100%;
+}
+
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.why-denmark{
+  padding: 0 5%;
+  margin: 80px 0;
+  width: 80%;
+}
+
+.articel{
+  margin-bottom: 100px;
+}
+
+.articel img{
+  width: 550px;
+}
+
+.why-denmark p{
+  padding-right: 50px;
+}
+
+.Freedom p{
+  padding-left: 50px;
+}
+
+.Freedom h1{
+  padding-left: 50px;
+}
+
+.why-Denmark{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Freedom{
+  display: flex;
+}
+
+.why-us-container{
+  width: 100%;
+}
+
+.why-us{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-why-us{
+  width: 550px;
+}
+
+.why-us img{
+  width: 100%;
+}
+
+.why-us ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-left: 17px;
+}
+
+.why-us ul li {
+  padding: 10px 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.why-denmark p{
+  font-size: 18px;
+  line-height: 28.8px;
+}
+
+.why-denmark h1{
+  font-size: 30px;
+}
+.contact{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact-me{
+  padding: 0 5%;
+  margin: 80px 0;
+  width: 80%;
+}
+
+.contact-me p{
+  font-size: 18px;
+  line-height: 28.8px;
+}
+
+.poster{
+  display: flex;
+  
+}
+
+.poster img{
+  width: 200px;
+  height: auto;
+}
+
+.img-startpage1{
+  width: 220px !important;
+  height: 175px !important;
+}
+
+.footer img{
+  width: 34px;
+  height: 34px;
+}
+
+@media only screen and (max-width: 1300px){
+
+  .button1 {
+    margin-left: 9%;
+}
+
+.articel img {
+  width: 85vw !important;
+}
+
+}
+
+@media only screen and (max-width: 1200px){
+ 
+
+  .why-Denmark{
+    display: flex;
+    flex-direction: column
+  }
+  
+  .Freedom{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .articel img{
+    width: 750px;
+  }
+
+  .Freedom p{
+    padding: 0;
+  }
+
+  .Freedom h1{
+    padding: 0;
+  }
+
+  .button1 {
+    margin-left: 7%;
+  }
+
+  .articel img {
+    width: 85vw;
+  }
+
+
+}
+
+@media only screen and (max-width: 1100px){
+  
+  .why-us{
+    flex-direction: column;
+  }
+
+  img{
+    width: 664px;
+    height: auto;
+  }
+  .button1 {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  
+
+  .articel img{
+    width: 550px;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+  .articel{
+    margin-bottom: 50px;
+  }
+
+  .Start-button{
+    width: 175px;
+    height: 55px;
+  }
+
+  .Start-button2{
+    width: 175px;
+    height: 55px;
+  }
+
+  .button1 {
+    margin-left: 12%;
+  }
+}
+
+@media only screen and (max-width: 900px){
+
+  .button1 {
+    margin-left: 10%;
+  }
+
+}
+
+@media only screen and (max-width: 800px){
+ 
+  .button1 {
+    margin-left: 9%;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+  ul {
+    padding-left: 1rem !important;
+  } 
+
+  .menu-my-new-header-menu-container .menu{
+    position: absolute;
+    margin-top: 65px;
+    padding-top: 0;
+    right: 0;
+    width: 100%;
+    display: none;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .show{
+    display: flex !important;
+    background: #1d1d1d;
+    z-index: 100;
+  }
+
+  .menu-my-new-footer-menu-container{
+    width: 100% !important;
+    display: flex;
+  }
+
+  .menu-my-new-footer-menu-container ul{
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Logo{
+    top: 41px !important;
+  }
+
+  .toggleButton-box {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  top: 70px;
+  margin-bottom: 37px;
+  position: absolute;
+  }
+
+  .toggleButton {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45px;
+    height: 28px;
+    align-items: flex-end; 
+  }
+  
+  .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  }
+
+  .why-denmark{
+    width: 85%;
+  }
+
+  .button-box{
+    justify-content: center;
+  }
+
+  img{
+    width: 564px;
+    height: auto;
+  }
+
+  .Logo img {
+    margin-top: -86px !important;
+}
+
+  .toggleButton-box {
+    margin-top: -43px !important;
+}
+
+  .img-startpage{
+    margin-bottom: 30px;
+  }
+
+  .button1 {
+    margin-left: 10.5%;
+  }
+
+  .Start-button{
+    width: 140px;
+    height: 45px;
+  }
+
+  .Start-button2{
+    width: 140px;
+    height: 45px;
+  }
+
+  .button1 {
+    margin-left: 0;
+  }
+
+  .menu-my-new-footer-menu-container ul{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer ul{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer a{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer img {
+    padding: 0 25px;
+    width: 45px !important;
+}
+
+}
+
+
+
+@media only screen and (max-width: 680px){
+
+  img{
+    width: 500px;
+    height: auto;
+  }
+
+  .why-denmark p {
+    padding-right: 0;
+  }
+
+  .button1 {
+    margin-left: 7.5%;
+  }
+
+  
+}
+
+@media only screen and (max-width: 550px){
+
+  img{
+    width: 450px;
+    height: auto;
+  }
+
+  .button1 {
+    margin-left: 0;
+  }
+
+  .Start-button{
+    width: 125px;
+    height: 35px;
+  }
+
+  .Start-button2{
+    width: 125px;
+    height: 35px;
+  }
+
+  .Start-button p{
+    font-size: 14px;
+  }
+
+  .Start-button2 p{
+    font-size: 14px;
+  }
+
+  ul {
+    padding-left: 0 !important;
+  } 
+
+  .footer{
+    padding-top: 30px;
+    padding: 0 !important;
+    height: 143px !important;
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+
+  img{
+    width: 400px;
+    height: auto;
+  }
+
+}
+
+@media only screen and (max-width: 450px){
+
+  img{
+    width: 350px;
+    height: auto;
+  }
+
+  .Start-button {
+    width: 125px;
+    height: 35px;
+    margin-left: 10%;
+    bottom: 42%;
+    font-size: 20px;
+}
+
+.Start-button{
+  margin-left: 0;
+}
+
+.Start-button2 {
+  margin-left: 12%;
+}
+
+}
+
+@media only screen and (max-width: 400px){
+  img{
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  img{
+    width: 250px;
+    height: auto;
+  }
+
+}
+
+.footer{
+  position: absolute;
+  width: 100%;
+  background-color: #736969;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer img{
+  padding-right: 25px;
+  width: 70px;
+  height: auto;
+}
